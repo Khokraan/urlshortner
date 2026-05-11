@@ -33,7 +33,7 @@ public class UrlServiceImpl implements UrlService {
 
         urlRepository.save(savedEntity);
 
-        return "http://localhost:8080/" + shortCode;
+        return "http://localhost/" + shortCode;
     }
 
     @Override
